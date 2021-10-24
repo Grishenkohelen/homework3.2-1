@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #container {
+            height: 620px;
+            width: 400px;
+            /*background: aqua;*/
+        }
+
+        #header {
+            height: 100px;
+            width: 400px;
+            background: crimson;
+
+        }
+
+        .main {
+            display: flex;
+        }
+
+        #menu {
+            height: 410px;
+            width: 400px;
+            margin: 8px 3px 3px 0;
+            background: blueviolet;
+            display: flex;
+        }
+        .menu_post {
+            column-gap: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 6px 0px 3px 0;
+        }
+
+        .post {
+            /* display: flex;*/
+            height: 200px;
+            width: 200px;
+            background: darkmagenta;
+            margin: 5px 0px 0px 5px;
+        }
+
+        #footer {
+            height: 90px;
+            width: 400px;
+            margin-top: 5px;
+            background: darkgreen;
+        }
+    </style>
+
+</head>
+<body>
+<div id="container">
+    <div id="header"></div>
+    <div class="main">
+        <div id="menu"></div>
+        <div class="menu_post">
+            <div class="post"></div>
+            <div class="post"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+</div>
+
+</body>
+</html>
